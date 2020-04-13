@@ -40,7 +40,7 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthrough GIF
 
-<img src="https://github.com/yasvi31/flixster/blob/master/Flix.gif" width=250><br>
+<img src="https://github.com/yasvi31/flixster/blob/master/Flix(2).gif" width=250><br>
 
 ### Notes
 Had an issue with the TableCellView not showing the details but fixed it with quick debugging
