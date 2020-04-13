@@ -43,4 +43,4 @@ Describe any challenges encountered while building the app.
 <img src="https://github.com/yasvi31/flixster/blob/master/Flix(2).gif" width=250><br>
 
 ### Notes
-Had an issue with the TableCellView not showing the details but fixed it with quick debugging
+Had an issue with the TableCellView not showing the details but fixed it with quick debugging. Had trouble running a custom library on real device.
