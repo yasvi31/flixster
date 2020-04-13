@@ -44,4 +44,4 @@ Describe any challenges encountered while building the app.
 <img src="YOUR_GIF_URL_HERE" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+Had an issue with the TableCellView not showing the details but fixed it with quick debugging
