@@ -43,7 +43,7 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
                     let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
                     // TODO: Store the movies in a property to use elsewhere
                     self.movies = dataDictionary["results"] as! [[String:Any]]
-                    // TODO: Reload your table view data
+                    // TODO: Reload your collection view data
                     self.collectionView.reloadData()
                     
                }
@@ -84,7 +84,6 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         let detailVC = segue.destination as! MovieDetailGridViewController
         detailVC.movie = movie
         
-//            tableView.deselectRow(at: indexPath, animated: true)
     }
     
 

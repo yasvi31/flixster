@@ -41,14 +41,21 @@ class MovieDetailGridViewController: UIViewController {
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
+        
+        let movieTrailerVC = segue.destination as! MovieTrailerViewController
+        let movie_id = movie["id"]!
+        let trailerURL = "https://api.themoviedb.org/3/movie/\( movie_id)/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed"
+        
         // Pass the selected object to the new view controller.
+        
+        movieTrailerVC.videoURL = trailerURL
     }
-    */
+    
 
 }
