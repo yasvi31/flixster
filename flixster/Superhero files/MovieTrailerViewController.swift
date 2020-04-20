@@ -25,7 +25,7 @@ class MovieTrailerViewController: UIViewController, WKUIDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         let myURL = URL(string: videoURL!)
         let request = URLRequest(url: myURL!)
@@ -49,9 +49,6 @@ class MovieTrailerViewController: UIViewController, WKUIDelegate {
            }
         }
         task.resume()
-        
-    
-        
         
     }
     

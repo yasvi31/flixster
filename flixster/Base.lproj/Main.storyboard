@@ -371,16 +371,7 @@
                     <view key="view" contentMode="scaleToFill" id="Jj4-KS-3Cn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="xnD-To-Ozy">
-                                <rect key="frame" x="177.5" y="313.5" width="20" height="20"/>
-                            </activityIndicatorView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="xnD-To-Ozy" firstAttribute="centerY" secondItem="Jj4-KS-3Cn" secondAttribute="centerY" id="4N2-Oo-A6e"/>
-                            <constraint firstItem="xnD-To-Ozy" firstAttribute="centerX" secondItem="Jj4-KS-3Cn" secondAttribute="centerX" id="NvK-gr-yc2"/>
-                        </constraints>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="sVv-mY-ATc"/>
                     </view>
                 </viewController>
