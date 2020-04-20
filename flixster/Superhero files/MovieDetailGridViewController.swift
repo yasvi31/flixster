@@ -1,13 +1,14 @@
 //
-//  MovieDetailsViewController.swift
+//  MovieDetailGridViewController.swift
 //  flixster
 //
-//  Created by apple on 19/04/2020.
+//  Created by apple on 20/04/2020.
 //
 
 import UIKit
+import AlamofireImage
 
-class MovieDetailsViewController: UIViewController {
+class MovieDetailGridViewController: UIViewController {
 
     
     @IBOutlet weak var backdropView: UIImageView!
@@ -37,8 +38,6 @@ class MovieDetailsViewController: UIViewController {
         let backdropPath = movie["backdrop_path"] as! String
         let backdropURL = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
         backdropView.af.setImage(withURL: backdropURL!)
-
-        
     }
     
 

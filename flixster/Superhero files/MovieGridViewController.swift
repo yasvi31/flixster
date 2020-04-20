@@ -20,6 +20,8 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         collectionView.delegate = self
         collectionView.dataSource = self
         
+        
+        //comment after auto layout
         let layout = collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         
         layout.minimumLineSpacing = 4
@@ -69,14 +71,21 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
         return cell
     }
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
+        let cell = sender as! UICollectionViewCell
+        let indexPath = collectionView.indexPath(for: cell)!
+        let movie = movies[indexPath.item]
         // Pass the selected object to the new view controller.
+        let detailVC = segue.destination as! MovieDetailGridViewController
+        detailVC.movie = movie
+        
+//            tableView.deselectRow(at: indexPath, animated: true)
     }
-    */
+    
 
 }
