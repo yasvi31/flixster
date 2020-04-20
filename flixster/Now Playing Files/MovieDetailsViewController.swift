@@ -15,6 +15,7 @@ class MovieDetailsViewController: UIViewController {
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
+    @IBOutlet weak var backView: UIView!
     
     var movie: [String:Any]!
     
@@ -38,7 +39,10 @@ class MovieDetailsViewController: UIViewController {
         let backdropPath = movie["backdrop_path"] as! String
         let backdropURL = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
         backdropView.af.setImage(withURL: backdropURL!)
-
+        backdropView.alpha = 0.5 //change the opacity
+        
+        //adding rounded corners
+        backView.layer.cornerRadius = 30;
         
     }
     

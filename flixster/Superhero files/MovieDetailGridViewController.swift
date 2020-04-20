@@ -38,6 +38,7 @@ class MovieDetailGridViewController: UIViewController {
         let backdropPath = movie["backdrop_path"] as! String
         let backdropURL = URL(string: "https://image.tmdb.org/t/p/w780" + backdropPath)
         backdropView.af.setImage(withURL: backdropURL!)
+        backdropView.alpha = 0.5 //opacity
     }
     
 
