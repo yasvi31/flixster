@@ -212,34 +212,34 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1hY-1F-nFt">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aCJ-fD-C0k">
-                                    <size key="itemSize" width="181" height="203"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="4" minimumInteritemSpacing="4" id="aCJ-fD-C0k">
+                                    <size key="itemSize" width="180" height="270"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieGridCell" id="3OO-gw-mtP" customClass="MovieGridCell" customModule="flixster" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="181" height="203"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="187.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1Vu-ta-qf6">
-                                            <rect key="frame" x="0.0" y="0.0" width="181" height="203"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="125" height="187.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QIA-Ec-aVG">
-                                                    <rect key="frame" x="0.0" y="0.0" width="181" height="203"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="125" height="187.5"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="QIA-Ec-aVG" firstAttribute="leading" secondItem="1Vu-ta-qf6" secondAttribute="leading" id="7Ha-VU-WGm"/>
+                                                <constraint firstAttribute="leading" secondItem="QIA-Ec-aVG" secondAttribute="leading" id="7Ha-VU-WGm"/>
                                                 <constraint firstAttribute="bottom" secondItem="QIA-Ec-aVG" secondAttribute="bottom" id="V91-G7-fYg"/>
                                                 <constraint firstAttribute="trailing" secondItem="QIA-Ec-aVG" secondAttribute="trailing" id="hWu-TI-F7W"/>
                                                 <constraint firstItem="QIA-Ec-aVG" firstAttribute="top" secondItem="1Vu-ta-qf6" secondAttribute="top" id="jYe-yb-Frj"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="181" height="203"/>
+                                        <size key="customSize" width="125" height="187.5"/>
                                         <connections>
                                             <outlet property="posterView" destination="QIA-Ec-aVG" id="yhZ-wm-LqO"/>
                                             <segue destination="Ghr-5e-uOr" kind="show" id="SlS-sV-J1F"/>
