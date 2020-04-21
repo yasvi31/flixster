@@ -20,8 +20,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthrough GIF
 
-<img src="https://github.com/yasvi31/flixster/blob/master/flix(3).gif" width=250><br>
-<img src="https://github.com/yasvi31/flixster/blob/master/flix(4).gif" width=250><br>
+<img src="https://github.com/yasvi31/flixster/blob/master/flix(3).gif" width=250> <img src="https://github.com/yasvi31/flixster/blob/master/flix(4).gif" width=250><br>
 
 ### Notes
 I faced some challenges in creating a segue from an UIImageView but fixed it after some debugging by enabling UI interaction. 
