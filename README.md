@@ -14,19 +14,23 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [x] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
+#### EXTRA
+- [x] User can view the app on various device sizes and orientations.
+- [x] In both the detail views, UI is updated to be less primitive
+
 ### App Walkthrough GIF
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/yasvi31/flixster/blob/master/flix(3).gif" width=250><br>
+<img src="https://github.com/yasvi31/flixster/blob/master/flix(4).gif" width=250><br>
 
 ### Notes
-Some challenges faced in creating a segue from an UIImageView but fixed it after some debugging by enabling UI interaction. 
+I faced some challenges in creating a segue from an UIImageView but fixed it after some debugging by enabling UI interaction. 
 
 ---
 
 ## Flix Part 1
 
 ### User Stories
-`TODO://` In the **User Stories section below**, add an `x` in the `-[ ]` like this `- [x]` for any user story you complete. (🚫 Remove this paragraph after after checking off completed user stories)
 
 #### REQUIRED (10pts)
 - [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
